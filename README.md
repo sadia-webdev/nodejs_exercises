@@ -6,4 +6,5 @@ The goal of this repository is to track my progress and receive guidance from my
 ## Exercises
 
 1. [**Exercise 1**](/exercise_1/)
-1. [**Exercise 2**](/exercise_2/)
+2. [**Exercise 2**](/exercise_2/)
+3. [**Exercise 3**](/exercise_3/)
