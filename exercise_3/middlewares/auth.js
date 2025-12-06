@@ -16,6 +16,6 @@ try{
     next()
  
 }catch(err){
-    res.status(401).json({message: "invvalid or expired token"})
+    res.status(401).json({message: "invalid or expired token"})
 }
 }
