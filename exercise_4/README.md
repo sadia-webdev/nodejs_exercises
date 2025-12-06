@@ -46,40 +46,41 @@ Built with **Node.js, Express, MongoDB, JWT authentication, Zod validation, and 
 ## 📂 Project Structure
 
 project/
-│── controllers/
+├── controllers/
 │   ├── authController.js
 │   ├── transactionsController.js
 │   └── uploadController.js
 │
-│── middlewares/
+├── middlewares/
 │   ├── protect.js
 │   ├── authorize.js
 │   ├── validate.js
 │   └── upload.js
 │
-│── models/
+├── models/
 │   ├── User.js
 │   └── Transaction.js
 │
-│── routes/
+├── routes/
 │   ├── authRoutes.js
 │   ├── transactionRoutes.js
 │   ├── uploadRoutes.js
 │   └── adminRoutes.js
 │
-│── validation/
+├── validation/
 │   └── transactionSchema.js
 │
-│── utils/
+├── utils/
 │   └── generateToken.js
 │
-│── swagger/
+├── swagger/
 │   └── swagger.js
 │
-│── .env
-│── package.json
-│── index.js
-│── README.md
+├── .env
+├── package.json
+├── index.js
+└── README.md
+
 
 
 ---
