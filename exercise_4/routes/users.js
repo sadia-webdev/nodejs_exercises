@@ -37,7 +37,7 @@ const router = express.Router();
  */
 
 // register route
-router.post("/register", validate(registerUserSchema), register);
+router.post("/register/", validate(registerUserSchema), register);
 
 
 /**
@@ -64,10 +64,7 @@ router.post("/register", validate(registerUserSchema), register);
  *         description: Invalid credentials
  */
 // login route
-router.post("/login", login);
-
-// login route
-router.post("/login", login);
+router.post("/login/", login);
 
 
 

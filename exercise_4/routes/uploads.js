@@ -1,7 +1,7 @@
 import express from "express";
 import { protect } from "../middlewares/protect.js";
 import { uploadFile } from "../controllers/uploadController.js";
-import {upload} from '../middleWares/upload.js'
+import {upload} from '../middlewares/upload.js'
 
 
 const router = express.Router();
